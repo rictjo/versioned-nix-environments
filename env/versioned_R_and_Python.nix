@@ -1,6 +1,6 @@
 #
-# FUNCTIONALLY DEFINED ENVIRONMENT BY THE 
-# nixos.org PEOPLE
+# FUNCTIONALLY DEFINED ENVIRONMENT FOR THE PACKAGE
+# MANAGER AND OPERATING SYSTEM BY nixos.org PEOPLE
 #
 # BELOW IS THE VERSION CONTROLLED ENVIRONMENT FOR
 # RUNNING DEDICATED CODES AS OF 2023-05-XX
@@ -39,7 +39,7 @@ let
       ggalluvial gtable ggraph Cairo
       ggthemes ggrastr ggheatmap
 
-      svglite
+      edgebundle svglite
 
       biomaRt BiocManager clusterProfiler
       NOISeq enrichR edgeR
