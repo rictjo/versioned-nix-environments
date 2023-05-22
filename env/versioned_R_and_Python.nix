@@ -56,6 +56,8 @@ let
       reticulate devtools V8 coda rstan
 
       parallelly
+
+      keras
       
     ];
   };
