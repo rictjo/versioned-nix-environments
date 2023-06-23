@@ -58,7 +58,7 @@ let
       parallelly
 
       keras
-      
+      hash
     ];
   };
   #
