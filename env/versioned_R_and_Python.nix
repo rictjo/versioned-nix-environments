@@ -91,10 +91,10 @@ let
     #
       biocartograph = super.buildPythonPackage rec {
         pname = "biocartograph";
-        version = "0.5.1";
+        version = "0.6.4";
         src = super.fetchPypi {
           inherit pname version;
-          sha256 = "9Syr8ywQsqVSW13kKd3Desw5eRDM5onnAsfqnhJo3z0=";
+          sha256 = "16m7dh26hgyjy88sam4w8jwbxfp2yv1j7rgypp6zzp6jqzhdjlp9";
         };
         buildInputs = with super;
           [ numpy pandas scipy scikit-learn statsmodels myPyPkgs.impetuous rpy2 umap-learn kmapper ];
