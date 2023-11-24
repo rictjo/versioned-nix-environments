@@ -17,7 +17,7 @@
 let
   default_pkgs = fetchTarball {
     url = "https://github.com/NixOS/nixpkgs/archive/nixos-22.11.tar.gz"; 
-    sha256 = "12q3hsflxx1jiffja0w3a71f95vj64dbjwdfh4g8hfh0npzfk0z4";
+    #sha256 = "12q3hsflxx1jiffja0w3a71f95vj64dbjwdfh4g8hfh0npzfk0z4";
   };
 in { pkgs ? import default_pkgs { } }:
 with pkgs;
