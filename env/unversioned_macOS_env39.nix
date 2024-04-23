@@ -1,5 +1,5 @@
 with (import <nixpkgs> {}).pkgs;
-#with pkgs;
+with pkgs;
 with lib;
 with cmake;
 let
@@ -67,7 +67,7 @@ myPyPkgs = python39Packages.override {
 };
 
 pythonBundle = python39.withPackages (ps: with ps; [ 
-  scikit-learn matplotlib numpy numba
+  scikit-learn matplotlib numpy numba umap-learn
   # jax jaxlib
   statsmodels seaborn matplotlib ]);
 
